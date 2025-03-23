@@ -2,18 +2,45 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+.Python
 venv/
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
 .env
 
-# JavaScript
+# JavaScript/React
 node_modules/
+coverage/
 build/
 .DS_Store
 .env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# IDE files
+# IDE
 .idea/
 .vscode/
+*.swp
+*.swo
 
-# AWS credentials
-.aws/
+# Miscellaneous
+.DS_Store
+Thumbs.db

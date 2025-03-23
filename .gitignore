@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# JavaScript
+node_modules/
+build/
+.DS_Store
+.env.local
+
+# IDE files
+.idea/
+.vscode/
+
+# AWS credentials
+.aws/

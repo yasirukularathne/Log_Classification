@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./BatchClassifier.css";
 import {
   Card,
   Button,

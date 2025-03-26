@@ -38,7 +38,7 @@ h2,
 }
 
 .dropzone .text-muted {
-  color: #b0b0b0 !important; 
+  color: #b0b0b0 ; 
 }
 
 .table-container {
@@ -46,7 +46,7 @@ h2,
   overflow-x: auto;
   border-radius: 0.5rem;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-  background-color: #000000 !important; 
+  background-color: #000000 ; 
   padding: 2px;
   max-height: 500px;
 }

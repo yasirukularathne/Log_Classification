@@ -262,6 +262,7 @@ footer {
 .table th {
   position: sticky;
   top: 0;
+
   background-color: rgb(13, 11, 11);
   z-index: 10;
   font-weight: 600;

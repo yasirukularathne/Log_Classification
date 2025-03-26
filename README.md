@@ -13,7 +13,6 @@ Automatically classify system logs with ML and pattern matching 🚀
 - 🔄 batch-processing
 
 ## 🚀 Features
-
 - **Automatic Classification**: Categorize logs as "Error", "Warning", "System Notification", "User Action", etc.
 - **Batch Processing**: Upload CSV files with multiple logs for bulk classification
 - **Single Log Analysis**: Classify individual log messages in real-time
@@ -21,7 +20,6 @@ Automatically classify system logs with ML and pattern matching 🚀
 - **RESTful API**: Well-documented API for integration with existing systems
 
 ## 💻 Technologies
-
 - **Backend**: Python, FastAPI, Uvicorn
 - **Frontend**: React, Bootstrap, Axios
 - **Classification**:
@@ -33,7 +31,6 @@ Automatically classify system logs with ML and pattern matching 🚀
 ## 📋 Installation
 
 ### 🐍 Backend Setup
-
 ```bash
 # Clone repository
 git clone https://github.com/yasirukularathne/Log_Classification.git
@@ -67,7 +64,6 @@ npm start
 ## 🔍 Usage Examples
 
 ### Classifying a Batch of Logs
-
 1. Prepare a CSV file with source and log_message columns:
    ```
    source,log_message
@@ -105,12 +101,10 @@ The system uses several techniques to classify logs:
 - **NLP Embeddings**: Uses sentence transformers for semantic understanding
 
 Example regex pattern:
-
 - `r"User User\d+ logged (in|out)."` -> "User Action"
 - `r"Backup (started|ended|completed) at .*"` -> "System Notification"
 
 ## 🧪 Testing
-
 ```bash
 # Run tests
 pytest
@@ -130,7 +124,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 5. Open a Pull Request
 
 ## 👏 Acknowledgments
-
 - [FastAPI](https://fastapi.tiangolo.com/) - The API framework used
 - [React](https://reactjs.org/) - Frontend library
 - [scikit-learn](https://scikit-learn.org/) - Machine learning tools

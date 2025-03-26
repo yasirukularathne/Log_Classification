@@ -9,14 +9,14 @@ h2,
   margin-bottom: 1.5rem;
 }
 
-/* Dropzone styling with app colors */
+
 .dropzone {
-  border: 2px dashed rgba(22, 219, 147, 0.5); /* var(--success) with opacity */
+  border: 2px dashed rgba(22, 219, 147, 0.5); 
   border-radius: 0.75rem;
   padding: 2rem;
   text-align: center;
-  background-color: #121212; /* Dark background */
-  color: #e6e6e6; /* Light text */
+  background-color: #121212; 
+  color: #e6e6e6; 
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   cursor: pointer;
   margin-bottom: 1.5rem;
@@ -24,35 +24,33 @@ h2,
 
 .dropzone:hover {
   background-color: rgba(22, 219, 147, 0.08);
-  border-color: #16db93; /* var(--success) */
+  border-color: #16db93; 
 }
 
 .dropzone.active {
-  border-color: #16db93; /* var(--success) */
+  border-color: #16db93; 
   background-color: rgba(22, 219, 147, 0.1);
 }
 
 .dropzone p {
   margin-bottom: 0.5rem;
-  color: #e6e6e6; /* Light text */
+  color: #e6e6e6; 
 }
 
 .dropzone .text-muted {
-  color: #b0b0b0 !important; /* Gray text */
+  color: #b0b0b0 !important; 
 }
 
-/* Table styling with pure black backgrounds */
 .table-container {
   margin: 1.5rem 0;
   overflow-x: auto;
   border-radius: 0.5rem;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-  background-color: #000000 !important; /* Force pure black background */
+  background-color: #000000 !important; 
   padding: 2px;
   max-height: 500px;
 }
 
-/* Force black background on the table */
 .table {
   width: 100%;
   margin-bottom: 0;
@@ -65,11 +63,7 @@ h2,
 
 /* Keep the green gradient headers */
 .table th {
-  background: linear-gradient(
-    145deg,
-    #16db93,
-    #14c383
-  ); /* Success color gradient */
+  background: linear-gradient(145deg, #16db93, #14c383);
   color: #121212; /* Dark text on light background */
   font-weight: 600;
   text-transform: uppercase;
@@ -91,7 +85,6 @@ h2,
   border-top-right-radius: 8px;
 }
 
-/* Ensure each cell has black background */
 .table td {
   padding: 0.75rem 1rem;
   vertical-align: middle;
@@ -99,10 +92,9 @@ h2,
   color: #e6e6e6; /* Light text */
   font-size: 0.95rem;
   transition: all 0.2s ease;
-  background-color: #000000 !important; /* Force pure black background */
+  background-color: #000000 !important;
 }
 
-/* Override Bootstrap striping with black */
 .table-striped tbody tr:nth-of-type(odd),
 .table-striped tbody tr:nth-of-type(even),
 .table tbody tr:nth-child(odd),
@@ -110,14 +102,12 @@ h2,
   background-color: #000000 !important;
 }
 
-/* Keep the hover effect subtle but visible */
 .table tbody tr:hover {
   background-color: #0a0a0a !important;
   transform: translateY(-1px);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Very subtle row dividers for readability */
 .table tbody tr {
   border-bottom: 1px solid #222;
 }
@@ -126,12 +116,10 @@ h2,
   border-bottom: none;
 }
 
-/* Force override any other table styles from Bootstrap */
 .table-hover tbody tr:hover {
   background-color: #0a0a0a !important;
 }
 
-/* Classification badge styling */
 .classification-badge {
   font-size: 0.8rem;
   padding: 0.5rem 1rem;
@@ -207,12 +195,10 @@ h2,
   }
 }
 
-/* Alert styling enhancements */
 .alert-heading {
   margin-bottom: 0.75rem;
 }
 
-/* Spinner alignment */
 .spinner-border {
   vertical-align: middle;
 }
